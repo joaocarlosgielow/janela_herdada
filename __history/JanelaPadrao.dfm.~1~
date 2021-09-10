@@ -1,0 +1,32 @@
+object FJanelaPadrao: TFJanelaPadrao
+  Left = 0
+  Top = 0
+  Caption = 'FJanelaPadrao'
+  ClientHeight = 357
+  ClientWidth = 400
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Button1: TButton
+    Left = 312
+    Top = 320
+    Width = 75
+    Height = 25
+    Caption = 'Executa'
+    TabOrder = 0
+    OnClick = Button1Click
+  end
+  object Memo1: TMemo
+    Left = 8
+    Top = 8
+    Width = 379
+    Height = 297
+    TabOrder = 1
+  end
+end

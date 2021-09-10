@@ -1,0 +1,48 @@
+unit JanelaPadrao;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls;
+
+type
+  TFJanelaPadrao = class(TForm)
+    Button1: TButton;
+    Memo1: TMemo;
+    Button2: TButton;
+    procedure Button1Click(Sender: TObject);
+  private
+    { Private declarations }
+    procedure EscreveLinhas;
+  public
+    { Public declarations }
+  end;
+
+var
+  FJanelaPadrao: TFJanelaPadrao;
+
+implementation
+
+{$R *.dfm}
+
+procedure TFJanelaPadrao.Button1Click(Sender: TObject);
+begin
+  EscreveLinhas;
+end;
+
+procedure TFJanelaPadrao.EscreveLinhas;
+begin
+  Memo1.Lines.Add('Linha 1');
+  Memo1.Lines.Add('Linha 2');
+  Memo1.Lines.Add('Linha 3');
+  Memo1.Lines.Add('Linha 3');
+  Memo1.Lines.Add('Linha 4');
+  Memo1.Lines.Add('Linha 5');
+  Memo1.Lines.Add('Linha 6');
+  Memo1.Lines.Add('Linha 7');
+  Memo1.Lines.Add('Linha 8');
+  Memo1.Lines.Add('Linha 9');
+end;
+
+end.

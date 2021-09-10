@@ -1,0 +1,32 @@
+unit JanelaSecundaria;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, JanelaPadrao, Vcl.StdCtrls;
+
+type
+  TFJanelaPadrao1 = class(TFJanelaPadrao)
+  private
+    { Private declarations }
+    procedure EscreveLinhas;
+  public
+    { Public declarations }
+  end;
+
+var
+  FJanelaPadrao1: TFJanelaPadrao1;
+
+implementation
+
+{$R *.dfm}
+
+{ TFJanelaPadrao1 }
+
+procedure TFJanelaPadrao1.EscreveLinhas;
+begin
+  Memo1.Lines.Add('Teste de janela');
+end;
+
+end.

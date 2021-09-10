@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2021/09/10 08:05:37.810,=C:\Users\Joao\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/09/10 08:11:11.025,Q:\joao\janela herdada\JanelaPadrao.pas=C:\Users\Joao\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/09/10 08:11:11.025,Q:\joao\janela herdada\JanelaPadrao.dfm=C:\Users\Joao\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2021/09/10 08:13:10.253,=C:\Users\Joao\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/09/10 08:16:04.326,Q:\joao\janela herdada\JanelaSecundaria.pas=C:\Users\Joao\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/09/10 08:16:04.326,Q:\joao\janela herdada\JanelaSecundaria.dfm=C:\Users\Joao\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2021/09/10 08:18:13.463,=C:\Users\Joao\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/09/10 08:20:18.293,Q:\joao\janela herdada\Unit1.dfm=C:\Users\Joao\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2021/09/10 08:20:18.293,Q:\joao\janela herdada\Unit1.pas=C:\Users\Joao\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/09/10 08:49:04.511,Q:\joao\janela herdada\Project1.dproj=C:\Users\Joao\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>
